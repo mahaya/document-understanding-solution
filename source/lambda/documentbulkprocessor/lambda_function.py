@@ -87,7 +87,7 @@ def processDocument(record):
                            ingestionDocumentFilename,
                            s3Client)
 
-    # error trying to dowload document, exit
+    # error trying to download document, exit
     if ret == False:
         print("ProcessDocument: failed to download locally document:" +
               ingestionDocumentKey)
